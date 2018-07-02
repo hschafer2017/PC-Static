@@ -1,0 +1,1 @@
+Static Template for Stream 4 Project
