@@ -1,0 +1,41 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-default {
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+.navbar-default .navbar-nav li a {
+    color: #666;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: black;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+a img {
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  margin-top: 12.5px;
+  width: 50px;
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+.navbar-nav li a {
+    padding-top: 25px;
+}
+}
