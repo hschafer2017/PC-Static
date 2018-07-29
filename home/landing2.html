@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://bootswatch.com/3/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -16,20 +18,46 @@
     <div class="background">
         <div class="content">
             <div class="jumbotron">
+                <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
+                    <div class="container" style="text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;">
+                        <div class="navbar-header">
+                            <button id='scroll-button' type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a id='links' href="#">Alumni</a></li>
+                                <li><a id='links' href="#">Discussion</a></li>
+                                <li><a id='links' href="#">Shop</a></li>
+                                <li><a id='links' href="#">Contact</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
                 <div class="container">
                     <div class="col-sm-4 title">
-                    <h1 class="display-4">Portage Central</h1>
-                    <p class='lead'>Swimming & Diving</p>
-                    <br>
-                    <p class="lead">
-                        <a class="btn btn-default btn-sm sign" href="#" role="button">Sign In</a>
-                    </p>
+                        <h1 class="display-4">Portage Central</h1>
+                        <p class='lead'>Swimming & Diving</p>
+                        <br>
+                        <p class="lead">
+                            <a class="btn btn-default btn-sm sign" href="#" role="button">Sign In</a>
+                        </p>
                     </div>
-                    <div  id= 'big-logo' class="col-sm-4">
-                    <img src="../images/new_logo.png" width="400px" height='400px'></img>
+                    <div id='big-logo' class="col-sm-4">
+                        <img src="../images/new_logo.png" width="400px" height='400px'></img>
                     </div>
                     <div class="col-sm-4"></div>
-                    
+
                 </div>
             </div>
         </div>
