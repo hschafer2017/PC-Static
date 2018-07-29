@@ -1,0 +1,52 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+}
+
+.background {
+    background-image: url('../images/swim_background.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*z-index: 1;*/
+    position: relative;
+}
+
+.content {
+    background: none;
+    left: 0;
+    right: 0;
+    top: 15%;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    text-decoration: none;
+    /*opacity: 1;*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+}
+.jumbotron {
+    background-color: transparent;
+    color: #fafafa;
+}
+
+.title {
+    margin-top: 50px;
+}
+
+#big-logo {
+    margin-top: 70px;
+    margin-left: -50px;
+}
+
+.sign {
+    background-color: #002865;
+    color: #fafafa;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}

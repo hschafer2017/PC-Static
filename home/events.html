@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="base.css" type="text/css" />
+    <link rel="stylesheet" href="events.css" type="text/css" />
     <title>Document</title>
 </head>
 
@@ -32,7 +33,7 @@
                     <a href="{% url 'home' %}"><span class="circle"><img alt="PC Logo" src="../images/logo.png"></span></a>
                     <li><a href="{% url 'get_posts' %}">ALUMNI</a></li>
                     <li><a href="{% url 'get_posts' %}">DISCUSSION</a></li>
-                    <li><a href="{% url 'get_events' %}">EVENTS</a></li>
+                    <li><a href="{% url 'get_products' %}">EVENTS</a></li>
                     <!--{% if user.is_authenticated %}-->
                     <!--<li><a href="{% url 'profile' %}"><i class = 'fa fa-user-circle'></i> Welcome, user.</a></li>-->
                     <!--<li><a href="{% url 'logout' %}"><i class="fa fa-sign-out"></i> Logout</a></li>-->
