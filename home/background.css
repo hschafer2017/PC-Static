@@ -1,0 +1,114 @@
+html,
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #062E82 50%, #fafafa 50%);
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 0px solid transparent;
+}
+
+#scroll-button {
+    margin-top: -100px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ccc;
+    background-color: #ccc;
+}
+
+.navbar-default .navbar-toggle:hover {
+    border-color: #002865;
+    background-color: #002865;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #002865;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #ccc;
+}
+
+.navbar-nav li a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: transparent;
+}
+
+a {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+#links {
+    color: #062E82;
+}
+
+#links:hover {
+    color: #FFD236;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 95px;
+    width: 105px;
+}
+
+@media (max-width: 5000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}

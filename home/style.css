@@ -1,3 +1,4 @@
+/*LANDING PAGE*/
 body,
 html {
     height: 100%;
@@ -32,19 +33,13 @@ html {
     margin-top: -90px;
 }
 
-.navbar-toggle {
+.navbar-default .navbar-toggle {
+    border-color: #002865;
     background-color: #002865;
 }
 
-.navbar-toggle:hover {
-    background-color: #fafafa;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #002865;
-}
-
 .navbar-default .navbar-toggle:hover {
+    background-color: #fafafa;
     border-color: #fafafa;
 }
 
@@ -280,3 +275,5 @@ h1 {
         height: 175px;
     }
 }
+
+
