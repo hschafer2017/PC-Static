@@ -71,7 +71,7 @@ a {
 .logo {
     margin-left: 30px;
     margin-top: 15px;
-    height: 95px;
+    height: 100px;
     width: 105px;
 }
 
@@ -111,4 +111,96 @@ a {
     .collapse.in {
         display: block !important;
     }
+}
+
+/*TABLET SIZING*/
+
+@media (min-width: 426px) and (max-width: 990px) {
+    html,
+    body {
+        height: 100%;
+        background: #fafafa;
+    }
+    .navbar {
+        background: #062E82;
+        border-color: #062E82;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 95px;
+        width: 100px;
+    }
+    #scroll-button {
+        margin-top: -75px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #ccc;
+        background-color: #ccc;
+    }
+
+    .navbar-default .navbar-toggle:hover {
+        border-color: #002865;
+        background-color: #002865;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #002865;
+    }
+
+    .navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: #ccc;
+    }
+    #links {
+        color: #fafafa;
+    }
+
+}
+
+/*MOBILE SIZING*/
+
+@media (max-width: 426px) {
+    html,
+    body {
+        height: 100%;
+        background: #fafafa;
+    }
+    .navbar {
+        background: #062E82;
+        border-color: #062E82;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 95px;
+        width: 100px;
+    }
+    #scroll-button {
+        margin-top: -75px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #ccc;
+        background-color: #ccc;
+    }
+
+    .navbar-default .navbar-toggle:hover {
+        border-color: #002865;
+        background-color: #002865;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #002865;
+    }
+
+    .navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: #ccc;
+    }
+    #links {
+        color: #fafafa;
+    }
+
 }
