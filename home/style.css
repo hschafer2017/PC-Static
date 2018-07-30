@@ -13,6 +13,7 @@ html {
     /*z-index: 1;*/
     position: relative;
 }
+
 /*NAVBAR*/
 
 .navbar {
@@ -27,21 +28,30 @@ html {
     border-top: 0px solid transparent;
 }
 
+#scroll-button {
+    margin-top: -90px;
+}
+
 .navbar-toggle {
     background-color: #002865;
 }
+
 .navbar-toggle:hover {
     background-color: #fafafa;
 }
+
 .navbar-default .navbar-toggle {
     border-color: #002865;
 }
+
 .navbar-default .navbar-toggle:hover {
     border-color: #fafafa;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fafafa;
 }
+
 .navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #002865;
 }
@@ -73,6 +83,13 @@ a {
 
 .navbar-right {
     float: right!important;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
 }
 
 @media (max-width: 5000px) {
@@ -123,13 +140,14 @@ a {
     top: 15%;
     text-decoration: none;
 }
+
 .jumbotron {
     background-color: transparent;
     color: #fafafa;
+    margin-bottom: 0px;
 }
 
 .title {
-    margin-left: -70px;
     margin-top: 114px;
     text-transform: uppercase;
 }
@@ -141,7 +159,13 @@ h1 {
 
 #big-logo {
     margin-top: 110px;
-    
+    margin-left: -43px;
+
+}
+
+.big-pc {
+    width: 400px;
+    height: 400px;
 }
 
 .sign {
@@ -153,10 +177,106 @@ h1 {
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
+
 .sign:hover {
     background-color: #fafafa;
     color: #002865;
+}
+
+/*TABLET SIZING*/
+
+@media (min-width: 426px) and (max-width: 990px) {
+    .background {
+        background-image: url('../images/swim_background_tablet.png');
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .jumbotron {
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 75px;
+        width: 75px;
+    }
+    #scroll-button {
+        margin-top: -68px;
+    }
+    .container {
+        text-align: center;
+    }
+    .title {
+        margin-top: 114px;
+    }
+    #school {
+        font-size: 36px;
+    }
+    .sign {
+        font-size: 18px;
+    }
+    #big-logo {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .big-pc {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/*MOBILE SIZING*/
+
+@media (max-width: 426px) {
+    .background {
+        background-image: url('../images/swim_background_mobile.png');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .jumbotron {
+        margin-bottom: 0px;
+    }
+    .logo {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 60px;
+        width: 60px;
+    }
+    #scroll-button {
+        margin-top: -55px;
+    }
+    #links {
+        background-color: #002865;
+    }
+    .container {
+        text-align: center;
+    }
+    .title {
+        margin-top: 114px;
+    }
+    #school {
+        font-size: 32px;
+    }
+    .sign {
+        font-size: 18px;
+    }
+    #big-logo {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .big-pc {
+        width: 175px;
+        height: 175px;
+    }
 }
